@@ -24,4 +24,4 @@ class Person(object):
 		print(self.name + ' is playing '+ fav_sport)
 g=Person ('mona','18' ,'germany','female')
 g.eat_fav_breakfast('pancake')
-g.play_sport('football')
+g.play_sport('football')b

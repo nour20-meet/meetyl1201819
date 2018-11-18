@@ -26,7 +26,7 @@ class Person(object):
     self.first = first_name
     self.last = lname
   def speak(self):
-  print("My name is + " self.fname + " " + self.last")
+  print("My name is + " self.name  " " + self.last)
 
 me = Person("Brandon", "Walsh")
 you = Person("Ethan", "Reed")
