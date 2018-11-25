@@ -1,15 +1,9 @@
-y=[1,2,4,6,8]
-x=[]
-def thisthing(y):
-	x=[y[0],y[-1]]
-	return x
-print(thisthing(y))
 
+# a = [5,10,15,20,25]
+# def list():
+#  y = [a[0],a[-1]]
+#	print (y)
+#list()
 
-'''
-a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-if index in a <6:
-	for index in a :
-		if a =< 6:
-print(index)
-'''
+# a = [1, 1, 2, 3, 5, 8, 13, 21,34, 55, 89]
+# l(a):

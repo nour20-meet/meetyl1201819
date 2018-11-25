@@ -1,11 +1,15 @@
-print("nour"*100)
-number1=3
-print(number1)
-number2=number1/2
-print(number2)
-list1=[2,3,6]
-total=0
+import turtle
+turtle.penup()
+turtle.goto(-200,0)
+turtle.pendown()
+turtle.pencolor("blue")
+turtle.pensize(20)
+turtle.circle(100)
+turtle.penup()
+turtle.goto(50,0)
+turrle.pendown()
+turtle.pencolor("black")
+turtle.circle(100)
+turtle.penup()
 
-for elmint in list1:
-	total=total+elmint
-print(total)
+turtle.mainloop()
