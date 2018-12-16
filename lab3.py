@@ -28,13 +28,17 @@ turtle.mainloop()
 ''' 
 import turtle
 turtle.speed(0)
-for i in range(2000):
+turtle.tracer(3)
+for i in range(9000):
+	turtle.pendown()
 	turtle.forward(200)
 	turtle.right(3)
 	turtle.forward(100)
 	turtle.right(45)
 	turtle.forward(50)
+	turtle.penup()
 	turtle.goto(0,0)
-	turtle.right(503)
+	turtle.right(538)
+
  	
 turtle.mainloop()

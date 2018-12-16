@@ -23,7 +23,7 @@ square1.random_color()
 # 2
 
 turtle.home()
-turtle.pu()
+turtle.pendown()
 turtle.begin_poly()
 for i in range (6):
 	turtle.fd(100)
@@ -34,13 +34,11 @@ hexagon = turtle.get_poly()
 turtle.register_shape("hexagon", hexagon)
 
 
-class hexagon(turtle):
-	def__init__(self,size,speed,color):
-       Turtle.__init__(self)
-       self.shapesize(size)
-       self.shape("hexagon")
-       self.color(color)
-       self.speed(speed)
-
-p = hexagon(2,0,"blue")  
-turtle.mainloop()     
+class Hexagon(Turtle):
+	def __init__(self, size, color):
+		Turtle.__init__(self)
+		self.color(color)
+		self.shape('hexagon')
+		self.shapesize(size)
+p = Hexagon(2,'blue')
+turtle.mainloop()
