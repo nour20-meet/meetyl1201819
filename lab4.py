@@ -1,27 +1,33 @@
-class Aminal(object):
-	def __init__(self,age,name,favfood,sound):
-		self.name = name 
-		self.favfood = favfood
+'''
+class Animal(object):
+	def __init__(self,sound,name,age,favorite_color,favorite_food):
+		self.sound = sound
+		self.name = name
+		self.age = age
+		self.favorite_color = favorite_color
+		self.favorite_food = favorite_food
+
+	def eat(self,food,favorite_food):
+
+			print("yummy!!" + self.name + " is eating " + food)
+	def description(self):
+		print(self.name + "is" + str(self.age) +" years old and loves the color "+self.favorite_color)
+	def make_sound(self,times):
+		print("my sound is " + self.sound*times)
+k=Animal("woof","kucha",3,"pink", "pizza")
+k.eat("banana","pizza")
+print(k.favorite_food)
+k.description()
+k.make_sound(7)
+'''
+class person(object):
+	def __init__(self,name,age,city,gender,food):
+		self.name=name
 		self.age=age
-		self.sound=sound
-	def eat(self,food):
-		print (self.name + 'is eating' + food)
-	def description (self):
-		print(self.name + ' is '+ self.age + ' years old ' + 'and is eating ' + self.favfood)
-	def make_sound(self):
-		print(self.name + ':'+ self.sound *3)
-s=Aminal('2','mona', 'chocolate', ' meaw')
-s.description()
-class Person(object):
-	def __init__(self,name,age,city,gender):
-		self.name = name 
-		self.age = age 
-		self.city = city
-		self.gender = gender
-	def eat_fav_breakfast(self,fav_breakfast):
-		print(self.name +' is eating '+ fav_breakfast)
-	def play_sport(self,fav_sport):
-		print(self.name + ' is playing '+ fav_sport)
-g=Person ('mona','18' ,'germany','female')
-g.eat_fav_breakfast('pancake')
-g.play_sport('football')
+		self.city=city
+		self.gender=gender
+		self.food=food
+	def eat(self, food):
+		print("my favorite breakfast is " + food)
+m=person("mai",15,"london","female","banana")
+m.eat ("banana")
