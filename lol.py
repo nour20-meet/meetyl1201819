@@ -21,11 +21,7 @@ maximum_ball_dy = 3
 balls =[]
 score = 0
 scoret = turtle.clone()
-<<<<<<< HEAD
 turtle.bgpic("/home/student/Desktop/meetyl1201819/white-marble-1-2018.gif")
-=======
-
->>>>>>> b852fe964b4f3617e9dd81f43ef5a2c0c32d1b36
 for i in range(number_of_BALLS):
 
 	screen_random1_x = int(-screen_width+maximum_ball_radius)
@@ -160,6 +156,7 @@ def movearound(event):
 	MY_BALL.goto(x1,y1)
 turtle.getcanvas().bind("<Motion>", movearound)
 turtle.listen()
+
 
 while running == True:
 	if screen_width !=  int(turtle.getcanvas().winfo_width()/2) or screen_height != int(turtle.getcanvas().winfo_height()/2):
